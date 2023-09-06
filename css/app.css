@@ -101,7 +101,7 @@ footer {
     padding: 0 10px 30px 0;
 }
 
-/* main__card */
+/* card */
 .card__image {
     position: relative;
 }
@@ -137,4 +137,30 @@ footer {
 .badge.badge--sost {
     background-color: green;
     font-weight: bold;
+}
+
+.card__text {
+    padding-top: 5px;
+}
+
+.brand {
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.product {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.price.price--new {
+    color: red;
+}
+
+.price.price--old {
+    text-decoration-line: line-through;
 }
