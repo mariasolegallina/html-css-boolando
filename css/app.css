@@ -33,8 +33,7 @@ figure > img {
     margin: 0 auto;
 }
 
-.row,
-.card {
+.row {
     display: flex;
     flex-wrap: wrap;
 }
@@ -95,7 +94,7 @@ footer {
 
 /* main */
 .col-4 {
-    flex-basis: calc((100 /12) * 4);
+    flex-basis: calc((100% / 12) * 4);
 }
 
 .columnrow > [class^="col-"] {
@@ -108,5 +107,34 @@ footer {
 }
 
 .heart-icon {
+    line-height: 35px;
+    width: 35px;
+    font-size: 18px;
+    text-align: center;
+    background-color: white;
     position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.badge-container {
+    position: absolute;
+    bottom: 35px;
+}
+
+.badge {
+    display: inline;
+    width: 40px;
+    font-size: 10px;
+    color: white;
+    padding: 5px;
+}
+
+.badge.badge--discount {
+    background-color: red;
+}
+
+.badge.badge--sost {
+    background-color: green;
+    font-weight: bold;
 }
