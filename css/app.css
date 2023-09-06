@@ -10,6 +10,7 @@ html {
 
 a {
     text-decoration: none;
+    color: currentColor;
 }
 
 ul,
@@ -21,3 +22,48 @@ menu {
 img {
     max-width: 100%;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* utility */
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+/* header */
+header {
+    background-color: #ff6800;
+}
+
+.nav-menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu__item > a {
+    display: block;
+    padding: 0 5px;
+    line-height: 40px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.logo {
+    max-width: 100px;
+}
+
