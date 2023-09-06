@@ -93,6 +93,10 @@ footer {
 }
 
 /* main */
+main {
+    padding: 40px 0 15px 0;
+}
+
 .col-4 {
     flex-basis: calc((100% / 12) * 4);
 }
