@@ -42,23 +42,23 @@ img {
     align-items: center;
 }
 
-/* header */
+/* header + footer */
 header {
     background-color: #ff6800;
+    color: white;
 }
 
-.nav-menu {
+.nav-menu,
+.footer-menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
 }
 
 .nav-menu__item > a {
     display: block;
-    padding: 0 5px;
+    padding-right: 10px;
     line-height: 40px;
-    color: white;
     font-size: 12px;
     font-weight: bold;
 }
@@ -67,4 +67,24 @@ header {
     max-width: 110px;
     padding: 12px 0;
 }
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer-title {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.footer-menu__item {
+    display: block;
+    padding-right: 10px;
+    line-height: 25px;
+    font-size: 10px;
+}
+
 
